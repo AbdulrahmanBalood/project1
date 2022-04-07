@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(125, 152, 241),
+    rgb(245, 127, 147)
+  );
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#profile_img {
+  margin: 20px;
+  position: absolute;
+  width: 180px;
+}
+.profileHeader {
+  position: relative;
+  margin-left: 290px;
+}
+.personalInfo {
+  position: relative;
+  margin-top: 100px;
+}
+.table,
+td,
+th {
+  border: 1px grey solid;
+}
+
+#page_breake {
+  text-align: center;
+}
+#contactMe {
+  background-color: #cc541d;
+  color: white;
+  padding: 9px;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  margin-top: 20px;
+}
+hr.starBreak {
+  border-top: 5px dotted gray;
+  border-bottom: none;
+}
